@@ -112,12 +112,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.right-image img{
-    mix-blend-mode: overlay;
-    filter: contrast(1.1);
-    width: 31rem;
-    height: 50rem;
-}
 .attribution { 
     font-size: 11px; text-align: center; 
 }
