@@ -67,6 +67,7 @@ body{
     border-radius: 1rem;
     width: 100rem;
     height: 45.5rem;
+    justify-content: space-between;
 }
 .container-left{
     width: 50rem;
@@ -96,17 +97,20 @@ body{
 }
 .container-right{
     width: 50rem;
-    height: 45.5rem;
 }
 .right-image{
+    background-color: var(--softViolet);
+    opacity: 0.7;
+    border-radius: 0.8rem;
+    filter: brightness(0.8);
     width: 100%;
     height: 100%;
-    background-image: url(../images/image-header-desktop.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 0 1rem 1rem 0;
-    filter: var(--softViolet);
+}
+.right-image img{
+    mix-blend-mode: overlay;
+    filter: contrast(1.1);
+    width: 31rem;
+    height: 50rem;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
