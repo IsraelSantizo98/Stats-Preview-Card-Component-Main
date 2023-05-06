@@ -97,14 +97,20 @@ body{
 }
 .container-right{
     width: 50rem;
+    height: 100%;
+    background-color: var(--softViolet);
+    border-radius: 0 1rem 1rem 0;
 }
 .right-image{
-    background-color: var(--softViolet);
-    opacity: 0.7;
-    border-radius: 0.8rem;
+    opacity: 0.6;
+    border-radius: 0 1rem 1rem 0;
     filter: brightness(0.8);
     width: 100%;
     height: 100%;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .right-image img{
     mix-blend-mode: overlay;
